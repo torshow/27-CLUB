@@ -17,7 +17,7 @@ export const club27Data: Artist[] = [
     role: "Guitarist & Singer",
     birthYear: 1942,
     deathYear: 1970,
-    image: "/jimi.jpg", 
+    image: "${import.meta.env.BASE_URL}/jimi.jpg", 
     bio: "He completely changed how the electric guitar is played, using feedback and distortion to create sounds no one had ever heard before.",
     famousTrack: "Purple Haze",
     spotifyUrl: "https://spotify.com" 
@@ -28,7 +28,7 @@ export const club27Data: Artist[] = [
     role: "Soul & Jazz Singer",
     birthYear: 1983,
     deathYear: 2011,
-    image: "/amy.jpg", 
+    image: "${import.meta.env.BASE_URL}/amy.jpg", 
     bio: "A London singer whose deep, raw vocals mixed classic jazz with modern rhythm and blues. Her personal life heavily shaped her honest songwriting.",
     famousTrack: "Back To Black",
     spotifyUrl: "https://spotify.com" 
@@ -39,7 +39,7 @@ export const club27Data: Artist[] = [
     role: "Nirvana Frontman",
     birthYear: 1967,
     deathYear: 1994,
-    image: "/kurt.jpg", 
+    image: "${import.meta.env.BASE_URL}/kurt.jpg", 
     bio: "As the guitarist and main writer for Nirvana, his music launched the 90s grunge movement from Seattle and came to define an entire generation.",
     famousTrack: "Smells Like Teen Spirit",
     spotifyUrl: "https://spotify.com" 
@@ -50,7 +50,7 @@ export const club27Data: Artist[] = [
     role: "Rock & Blues Singer",
     birthYear: 1943,
     deathYear: 1970,
-    image: "/janis.jpg", 
+    image: "${import.meta.env.BASE_URL}/janis.jpg", 
     bio: "One of rock's first major female stars, known for her intense, screaming blues performances that broke the mold for female artists in the 1960s.",
     famousTrack: "Piece of My Heart",
     spotifyUrl: "https://spotify.com" 
